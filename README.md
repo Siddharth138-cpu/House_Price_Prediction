@@ -1,2 +1,11 @@
-# House_Price_Prediction
-Housing Price Prediction (California Housing Dataset)  A beginner-friendly but comprehensive machine learning project that predicts housing prices using the California Housing dataset. It demonstrates an end-to-end approach using linear regression and includes features .
+
+---
+
+### Why This Works
+
+- Includes key sections that GitHub users expect: **Installation**, **Usage**, **Structure**, **Results**, **Contributing**, **License**, and **Acknowledgements** :contentReference[oaicite:1]{index=1}.
+- Offers a clear and professional presentation—helpful for showcasing your work and attracting collaborators or potential employers.
+- Uses Markdown for readability and GitHub compatibility.
+
+Let me know if you'd like to extend this with badges, a table of contents, or additional sections!
+::contentReference[oaicite:2]{index=2}
