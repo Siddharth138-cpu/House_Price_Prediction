@@ -1,11 +1,34 @@
+# Housing Price Prediction
+
+A simple regression project using the **California Housing** (or **Boston Housing**) dataset to predict house prices with a Linear Regression model.
 
 ---
 
-### Why This Works
+##  Features
 
-- Includes key sections that GitHub users expect: **Installation**, **Usage**, **Structure**, **Results**, **Contributing**, **License**, and **Acknowledgements** :contentReference[oaicite:1]{index=1}.
-- Offers a clear and professional presentation—helpful for showcasing your work and attracting collaborators or potential employers.
-- Uses Markdown for readability and GitHub compatibility.
+- Fetches **California Housing** dataset from `scikit-learn` (or loads **Boston Housing** from Excel).
+- Saves dataset to `.xlsx` for easy access and reproducibility.
+- Implements **Linear Regression** using `scikit-learn`.
+- Evaluates model using **Mean Squared Error (MSE)** and **R² Score**.
+- Includes a scatter plot to visually compare Actual vs Predicted values.
 
-Let me know if you'd like to extend this with badges, a table of contents, or additional sections!
-::contentReference[oaicite:2]{index=2}
+---
+
+##  Motivation
+
+This project serves as a learning exercise in:
+- Working with real-world housing datasets.
+- Handling data extraction and file output (Excel).
+- Building and evaluating regression models.
+- Visualizing model performance to understand accuracy and bias.
+
+---
+
+##  Getting Started
+
+### Prerequisites
+
+Install the necessary Python packages:
+
+```bash
+pip install numpy pandas scikit-learn matplotlib openpyxl
